@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    float: left;
+}
+
+nav h2 {
+    font-size: 100px;
+}
+
+main { 
+    text-align: center;
+    top: 0;
+    bottom: 0;
+}
+
+table {
+    display: inline-block;
+
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    width: 150px;
+    height: 150px;
+
+    text-align: center;
+    
+    border: 2px solid black;
+
+    font-size: 100px;
+}
+
+td:hover {
+    background-color: green;
+    opacity: 50%;
+    cursor: pointer;
+}
+
