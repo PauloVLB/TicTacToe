@@ -29,3 +29,11 @@ for (let i = 0; i < 3; i++) {
 function pickPlayer() {
    alert(player + ' starts');
 }
+
+function reset() {
+    let tds = document.querySelectorAll('td');
+
+    tds.forEach((td) => {
+        td.innerHTML = '';
+    });
+}
